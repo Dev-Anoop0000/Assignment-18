@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+
+/* ---------- Left Part of Nav bar -------  */
+
+header .left-nav {
+    min-width: 60vw;
+    max-width: 70vw;
+}
+
+header .left-nav nav ul {
+    /* background-color: aqua; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left-nav nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+}
+
+
+/* ------------ Right Part of Nav ---------  */
+
+header .right button {
+    background-color: rgb(79, 59, 177);
+    font-size: 22px;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 7px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
+/* ------- Main Content --------  */
+
+main {
+    background-size: cover;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+}
+
+
+/* ---------- Left grid of main Tag ---------- */
+
+main .left-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+/* --------- Content of left grid ----------  */
+
+main .left-grid h1 {
+    font-size: 5rem;
+    color: rgb(40, 40, 104);
+    margin-bottom: 2rem;
+}
+
+span {
+    color: rgb(92, 92, 231);
+}
+
+main .left-grid p {
+    margin-bottom: 3.5rem;
+    font-size: 20px;
+    color: rgb(81, 80, 80);
+}
+
+main .left-grid button {
+    background-color: rgb(79, 59, 177);
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: .5rem 1.2rem;
+    border: 0;
+    border-radius: 10px;
+}
+
+main .right-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .right-grid img {
+    height: 35rem;
+}
